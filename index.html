@@ -1,6 +1,22 @@
 ---
 layout: default
 ---
+
+<script>
+$.browserLanguage(function( language ){
+  if(language == "Chinese") {
+    if (/zh/.test(self.location.href)) {
+    } else {
+      location.replace("/zh");
+    }
+  } else if (language == "English") {
+    if (/en/.test(self.location.href)) {
+    } else {
+      location.replace("/en");
+    }
+  }
+});
+</script>
 {% include navbar.html %}
 {% include video.html %}
 {% include about.html %}
