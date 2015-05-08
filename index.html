@@ -18,10 +18,31 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
   <link rel="stylesheet" href="/css/main.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript" src="/javascripts/jquery.browserLanguage.js"></script>
+  <script type="text/javascript" src="/javascripts/jquery.fitvids.js"></script>
+  <script type="text/javascript" src="/javascripts/ixpass.js"></script>
 </head>
 
   <body>
-    <nav class="navbar navbar-default">
+    <script>
+$.browserLanguage(function( language ){
+  if(language == "Chinese") {
+    if (/zh/.test(self.location.href)) {
+    } else {
+      location.replace("/zh");
+    }
+  } else if (language == "English") {
+    if (/en/.test(self.location.href)) {
+    } else {
+      location.replace("/en");
+    }
+  }
+});
+</script>
+<nav class="navbar navbar-default">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -283,9 +304,4 @@
 
   </body>
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
-  <script type="text/javascript" src="/javascripts/jquery.fitvids.js"></script>
-  <script type="text/javascript" src="/javascripts/ixpass.js"></script>
 </html>
