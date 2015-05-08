@@ -1,0 +1,164 @@
+body {
+  background-color: #F4F4F4; }
+
+h1 {
+  font-size: 64px; }
+
+h2 {
+  font-size: 48px; }
+
+h3 {
+  font-size: 35px; }
+
+h4 {
+  font-size: 28px; }
+
+h6 {
+  font-size: 14px; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: white; }
+
+.navbar {
+  padding: 5px;
+  background-color: white;
+  margin-bottom: 0px; }
+  .navbar .navbar-brand {
+    padding: 5px; }
+  .navbar .navbar-collapse {
+    border: none; }
+  .navbar h6 {
+    color: #222237; }
+
+#video-box .video_overlays {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/mesh.png");
+  repeat: repeat;
+  z-index: 300000; }
+#video-box .fluid-width-video-wrapper {
+  display: block; }
+
+#about {
+  padding-top: 150px; }
+  #about .about-caption {
+    margin: 20px 0;
+    padding: 0 20%;
+    padding-bottom: 10%; }
+    #about .about-caption h3 {
+      color: #222237; }
+  #about img {
+    width: 100%; }
+
+#service {
+  background-color: #222237;
+  min-height: 400px; }
+
+#grids .row {
+  margin: 20px 0; }
+
+#events {
+  background-color: #222237; }
+  #events .event-list {
+    margin: 20px 0; }
+  #events .event-description {
+    height: 450px;
+    background: #FFF; }
+    #events .event-description h4, #events .event-description h5, #events .event-description p {
+      color: #222237; }
+
+#sports h2 {
+  margin-top: 150px;
+  color: white;
+  text-align: center;
+  color: #222237; }
+#sports .btn-g {
+  margin-top: 50px; }
+
+#partner {
+  background: #fff;
+  padding: 5% 0; }
+
+#contact {
+  padding: 5% 0;
+  background-color: #222237; }
+  #contact a {
+    color: #FD6F48; }
+  #contact img {
+    margin: 30px 0; }
+
+#footer {
+  background-color: #343454;
+  padding: 5% 0; }
+  #footer a {
+    color: white; }
+
+#copyright {
+  background-color: #222237;
+  padding: 5%; }
+
+.chair h1 {
+  color: gray;
+  text-align: center; }
+
+.header {
+  margin-top: 36px;
+  margin-bottom: 36px;
+  color: white; }
+
+.ixpass-btn {
+  font-size: 18px;
+  background-color: #FD6F48;
+  color: white;
+  padding: 26px 60px;
+  border: #FD6F48;
+  box-shadow: 0 7px 0 #A8492F;
+  margin: 40px 0px;
+  display: inline-block; }
+
+.box {
+  height: 500px;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
+
+.large-box {
+  height: 800px;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
+
+.small-box {
+  height: 205px;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
+
+.small-box-bottom {
+  margin-top: 40px; }
+
+.box-caption {
+  width: 100%;
+  height: 500px;
+  padding: 30px 0px;
+  background-color: #222237; }
+  .box-caption .inner {
+    padding: 0 20px;
+    color: white; }
+
+.elder-text h1 {
+  color: gray;
+  text-align: center; }
+.elder-text h3 {
+  color: black;
+  text-align: center; }
+.elder-text p {
+  color: black;
+  text-align: center; }
