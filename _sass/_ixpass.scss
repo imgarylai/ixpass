@@ -1,0 +1,144 @@
+$deep-blue: #222237;
+
+body {
+  background-color: #F4F4F4;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
+
+.navbar {
+  padding: 5px;
+  background-color: white;
+  margin-bottom: 0px;
+  .navbar-brand {
+    padding: 5px;
+  }
+  .navbar-collapse {
+    border: none;
+  }
+  h6 {
+    color: #222237;
+  }
+}
+
+#video-box {
+  .video_overlays {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/mesh.png");
+    repeat: repeat;
+    z-index:300000;
+  }
+  .fluid-width-video-wrapper{
+    display: block;
+  }
+}
+
+#about {
+  padding-top: 150px;
+  .about-caption {
+    margin: 20px 0;
+    padding: 0 20%;
+    padding-bottom: 10%;
+    h3 {
+      color: #222237;
+    }
+  }
+  img {
+    width: 100%;
+  }
+}
+
+#service {
+  background-color: #222237;
+  min-height: 400px;
+}
+
+#grids {
+  .row {
+    margin: 20px 0;
+  }
+}
+
+#events {
+  background-color: #222237;
+  .event-list {
+    margin: 20px 0;
+  }
+  .event-description {
+    height: 450px;
+    background: #FFF;
+    h4, h5, p {
+      color: #222237;
+    }
+  }
+}
+
+#sports {
+  h2 {
+    margin-top: 150px;
+    color: white;
+    text-align: center;
+    color: #222237;
+  }
+  .btn-g{
+    margin-top: 50px;
+  }
+}
+
+#partner {
+  background: #fff;
+  padding: 5% 0;
+}
+
+#contact {
+  padding: 5% 0;
+  background-color: #222237;
+  a {
+    color: #FD6F48;
+  }
+  img {
+    margin: 30px 0;
+  }
+}
+
+#footer {
+  background-color: #343454;
+  padding: 5% 0;
+  a {
+    color: white;
+  }
+}
+
+#copyright {
+  background-color: #222237;
+  padding: 5%;
+}
+
+.chair h1 {
+  color: gray;
+  text-align: center;
+}

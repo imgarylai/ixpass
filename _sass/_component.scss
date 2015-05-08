@@ -1,0 +1,73 @@
+.header {
+  margin-top: 36px;
+  margin-bottom: 36px;
+  color: white;
+}
+
+.ixpass-btn {
+  font-size: 18px;
+  background-color: #FD6F48;
+  color: white;
+  padding: 26px 60px;
+  border: #FD6F48;
+  box-shadow: 0 7px 0 #A8492F;
+  margin: 40px 0px;
+  display: inline-block;
+}
+
+
+.box {
+  height: 500px;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.large-box {
+  height: 800px;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+
+}
+
+.small-box {
+  height: 205px;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.small-box-bottom {
+  margin-top: 40px;
+}
+.box-caption {
+  width: 100%;
+  height: 500px;
+  padding: 30px 0px;
+  background-color: #222237;
+  .inner {
+    padding: 0 20px;
+    color: white;
+  }
+}
+
+.elder-text {
+  h1 {
+    color: gray;
+    text-align: center;
+  }
+  h3 {
+    color: black;
+    text-align: center;
+  }
+  p {
+    color: black;
+    text-align: center;
+  }
+}
