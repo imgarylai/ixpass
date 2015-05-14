@@ -1,3 +1,19 @@
+@charset "UTF-8";
+h1, h2, h3 {
+  letter-spacing: 2px;
+  font-family: 'Maven Pro',"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Osaka", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", verdana, arial, sans-serif;
+  font-weight: bold; }
+
+h4, h5, h6, p, a {
+  letter-spacing: 1.5px;
+  font-family: 'Maven Pro',"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Osaka", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", verdana, arial, sans-serif; }
+
+h5 {
+  font-size: 18px; }
+
+a:hover {
+  text-decoration: none; }
+
 body {
   background-color: #F4F4F4; }
 
@@ -41,12 +57,12 @@ h1, h2, h3, h4, h5, h6 {
   display: block; }
 
 #about {
-  padding-top: 150px; }
+  padding-top: 50px; }
   #about .about-caption {
     margin: 20px 0;
     padding: 0 20%;
-    padding-bottom: 10%; }
-    #about .about-caption h3 {
+    padding-bottom: 5%; }
+    #about .about-caption h4 {
       color: #222237; }
   #about img {
     width: 100%; }
@@ -54,9 +70,25 @@ h1, h2, h3, h4, h5, h6 {
 #service {
   background-color: #222237;
   min-height: 400px; }
+  #service .league-img-block {
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto; }
+  #service .league-text {
+    padding: 40px 80px; }
+  #service .league-text-p {
+    line-height: 2;
+    color: #fff; }
 
 #grids .row {
   margin: 20px 0; }
+#grids .elder-img {
+  margin-left: auto;
+  margin-right: auto; }
+#grids .width-box {
+  margin-bottom: 40px; }
+#grids .elder-info {
+  padding: 30px; }
 
 #events {
   background-color: #222237; }
@@ -68,13 +100,13 @@ h1, h2, h3, h4, h5, h6 {
     #events .event-description h4, #events .event-description h5, #events .event-description p {
       color: #222237; }
 
-#sports h2 {
-  margin-top: 150px;
-  color: white;
-  text-align: center;
-  color: #222237; }
+#sports h3 {
+  color: #222237;
+  margin-bottom: 30px; }
 #sports .btn-g {
   margin-top: 50px; }
+#sports .box-sport {
+  height: 450px; }
 
 #partner {
   background: #fff;
@@ -99,8 +131,9 @@ h1, h2, h3, h4, h5, h6 {
   padding: 5%; }
 
 .chair h1 {
-  color: gray;
-  text-align: center; }
+  color: #222237;
+  text-align: center;
+  margin-bottom: 40px; }
 
 .header {
   margin-top: 36px;
@@ -118,7 +151,12 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block; }
 
 .box {
+  margin-bottom: 20px;
   height: 500px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.footassbox {
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -146,18 +184,33 @@ h1, h2, h3, h4, h5, h6 {
 
 .box-caption {
   height: 500px;
-  padding: 30px 0px;
+  padding: 80px 0px;
   background-color: #222237; }
   .box-caption .inner {
     padding: 0 20px;
     color: white; }
 
-.elder-text h1 {
-  color: gray;
-  text-align: center; }
-.elder-text h3 {
-  color: black;
-  text-align: center; }
-.elder-text p {
-  color: black;
-  text-align: center; }
+.box-shop {
+  max-width: 354px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px; }
+
+.elder-text {
+  margin-bottom: 40px;
+  padding: 0 40px; }
+  .elder-text h1 {
+    color: gray;
+    text-align: center; }
+  .elder-text h4, .elder-text h3 {
+    color: #222237;
+    text-align: center; }
+  .elder-text p {
+    color: #222237;
+    text-align: center; }
+
+.elder-man {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px; }
