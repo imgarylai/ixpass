@@ -17,7 +17,13 @@
 
 
 .box {
+  margin-bottom: 20px;
   height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footassbox {
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -32,7 +38,6 @@
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-
 }
 
 .small-box {
@@ -48,7 +53,7 @@
 }
 .box-caption {
   height: 500px;
-  padding: 30px 0px;
+  padding: 80px 0px;
   background-color: #222237;
   .inner {
     padding: 0 20px;
@@ -56,17 +61,33 @@
   }
 }
 
+.box-shop {
+  max-width: 354px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
 .elder-text {
+  margin-bottom: 40px;
+  padding: 0 40px;
   h1 {
     color: gray;
     text-align: center;
   }
-  h3 {
-    color: black;
+  h4,h3 {
+    color: #222237;
     text-align: center;
   }
   p {
-    color: black;
+    color: #222237;
     text-align: center;
   }
+}
+
+.elder-man {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
 }

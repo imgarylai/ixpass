@@ -58,12 +58,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #about {
-  padding-top: 150px;
+  padding-top: 50px;
   .about-caption {
     margin: 20px 0;
     padding: 0 20%;
-    padding-bottom: 10%;
-    h3 {
+    padding-bottom: 5%;
+    h4 {
       color: #222237;
     }
   }
@@ -75,11 +75,33 @@ h1, h2, h3, h4, h5, h6 {
 #service {
   background-color: #222237;
   min-height: 400px;
+  .league-img-block {
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .league-text {
+    padding: 40px 80px;
+  }
+  .league-text-p {
+    line-height: 2;
+    color: #fff;
+  }
 }
 
 #grids {
   .row {
     margin: 20px 0;
+  }
+  .elder-img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .width-box {
+    margin-bottom: 40px;
+  }
+  .elder-info {
+    padding: 30px;
   }
 }
 
@@ -98,14 +120,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #sports {
-  h2 {
-    margin-top: 150px;
-    color: white;
-    text-align: center;
+  h3 {
     color: #222237;
+    margin-bottom: 30px;
   }
   .btn-g{
     margin-top: 50px;
+  }
+  .box-sport {
+    height: 450px;
   }
 }
 
@@ -139,6 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .chair h1 {
-  color: gray;
+  color: #222237;
   text-align: center;
+  margin-bottom: 40px;
 }
